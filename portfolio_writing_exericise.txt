@@ -2,6 +2,8 @@
 
 2) What is your background and what caused you to transition to being a developer?
 
+    I studied music in school and I worked as a handyman
+
 3) What experience/situation or person introduced you to coding?
 
 4) Why is web development important/fascinating to you?
@@ -11,3 +13,6 @@ _Optional questions:_
 - How can you see yourself using your coding skills to make a difference?
 
 - Describe a problem you experienced and how it made you want to be a developer.
+
+
+I studied music in school This involved composing pieces, which I find to be an enjoyable challenge. I also worked for years as a handyman. This  often involved identifying an existing problem and repairing it or building a new project, which I find extremely satisfying. Software development allows me to do all of these. Whether I’m working on existing code or “creating” my own project, I can compose code that creates a beautiful experience.

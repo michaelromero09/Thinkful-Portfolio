@@ -1,0 +1,13 @@
+1) Who are you and what do you do?
+
+2) What is your background and what caused you to transition to being a developer?
+
+3) What experience/situation or person introduced you to coding?
+
+4) Why is web development important/fascinating to you?
+
+_Optional questions:_
+
+- How can you see yourself using your coding skills to make a difference?
+
+- Describe a problem you experienced and how it made you want to be a developer.

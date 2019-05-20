@@ -1,21 +1,29 @@
 @media only screen and (min-width: 320px) {
+
   * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 1.2rem; */
+    box-sizing: border-box;
   }
-
+  
   header {
     width: fit-content;
     margin: 0 auto;
     padding: 30px;
     text-align: center;
+    background-color: rgb(2, 2, 154);
+    color: white;
+  }
+  
+  body {
+    background-color: rgb(109, 187, 255);
   }
 
   .my-pic {
     height: 250px;
     width: 250px;
+    margin-bottom: 15px;
     display: inline-block;
   }
 
@@ -29,22 +37,99 @@
     margin-bottom: 15px;
   }
 
-  .contact > div {
-    margin: 20px auto;
+  .app {
+    margin-bottom: 20px;
+  }
+
+  .app img {
+    width: 30%;
+    margin-right: 15px;
+    border: 1px solid black;
+    display: inline-block;
+  }
+
+  .app div {
+    width: 60%;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 auto;
+  }
+
+  .app p {
+    margin-bottom: 5px;
+  }
+
+  h4 {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    width: 100%;
+    background-color: rgb(2, 2, 154);
+    color: white;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    color: white;
+    margin-right: 30px;
+  }
+
+  .contact {
+    margin-top: 20px;
+  }
+
+  .contact-container > div {
+    margin: 20px auto 0px;
   }
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 768px) {
 
-  /* header {
-    width: fit-content;
-    margin: 50px auto;
+  header {
+    width: 100%;
+  }
+
+  header p {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  h1 {
     text-align: center;
-  } */
+  }
+
+  .contact-info, .web-links {
+    width: fit-content;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .contact-container {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .contact .contact-info {
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
 
   .my-pic {
     height: 300px;
     width: 300px;
   }
 
+  .app img {
+    width: 15%;
+    margin-right: 15px;
+    border: 1px solid black;
+    display: inline-block;
+  }
+
+  .contact .contact-info {
+    margin-right: 100px;
+  }
 }
